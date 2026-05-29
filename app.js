@@ -16,12 +16,19 @@ const db = {
         "ศรีสะเกษ 33": { yieldPerRai: 1500, desc: "ต้านทานโรคใบด่างได้ดี ใบร่วงช้า เก็บเกี่ยวได้นาน" },
         "บุรีรัมย์ 51": { yieldPerRai: 1960, desc: "ทนแล้งได้ดี ต้านทานโรคใบด่างปานกลาง" },
         "ศรีสะเกษ 84": { yieldPerRai: 2120, desc: "แนะนำสำหรับเขต 1: ทนแล้งและต้านทานโรคราสนิมได้ดีเยี่ยม" },
-        "เชียงใหม่ 60": { yieldPerRai: 99999, desc: "ผลใหญ่และกรดสูง เหมาะสำหรับการแปรรูป" }
+        "เชียงใหม่ 60": { yieldPerRai: 1000, desc: "ผลใหญ่และกรดสูง เหมาะสำหรับการแปรรูป" }
 };
     silk: {
-        "เหลืองสระบุรี": { cocoonYield: 20, silkYield: 2.75, pupaYield: 15, leafNeed: 475, priceCocoon: 200, priceSilk: 2000, pricePupa: 105 },
-        "อุบล 60-35": { cocoonYield: 20, silkYield: 1.75, pupaYield: 13, leafNeed: 375, priceCocoon: 145, priceSilk: 1850, pricePupa: 100 },
-        "สกลนคร_ไหม": { cocoonYield: 22, silkYield: 2.00, pupaYield: 15, leafNeed: 425, priceCocoon: 145, priceSilk: 1850, pricePupa: 100 }
+        "เหลืองสระบุรี":
+        { cocoonYield: 20, silkYield: 2.75, pupaYield: 15, leafNeed: 475, priceCocoon: 200, priceSilk: 2000, pricePupa: 105 },
+        "ไทยลูกผสม (อุบล 60-35)":
+        { cocoonYield: 20, silkYield: 1.75, pupaYield: 13, leafNeed: 375, priceCocoon: 145, priceSilk: 1850, pricePupa: 100 },
+        "ไทยลูกผสม (สกลนคร)":
+        { cocoonYield: 22, silkYield: 2.00, pupaYield: 15, leafNeed: 425, priceCocoon: 145, priceSilk: 1850, pricePupa: 100 }
+        "พันธุ์พื้นเมือง (นางน้อย/นางลาย)":
+        { cocoonYield: 11, silkYield: 1.00, pupaYield: 9, leafNeed: 600, priceCocoon: 120, priceSilk: 2300, pricePupa: 90 }
+        "ศรีสะเกษ 72 (ทับทิมสยาม 06 X วนาสวรรค์)":
+        { cocoonYield: 25, silkYield: 1.35, pupaYield: 11, leafNeed: 500, priceCocoon: 135, priceSilk: 1950, pricePupa: 100 }
     }
 };
 
